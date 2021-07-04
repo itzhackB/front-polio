@@ -29,7 +29,7 @@ const Convert = ({ language, text }) => {
           params: {
             q: finalText,
             target: language,
-            key: "AIzaSyAfXXvzhmnegGd0fQArgXcJ3oJUvsELTpM",
+            key:process.env.REACT_APP_API_KEY_GOOGLE,
           },
         }
       );
@@ -45,6 +45,7 @@ const Convert = ({ language, text }) => {
 
   }, [language, finalText]);
   console.log(finalText)
+  
   return (
     <div>
       <p className="aboutMep">{results}</p>
