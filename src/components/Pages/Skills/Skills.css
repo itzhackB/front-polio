@@ -1,0 +1,52 @@
+ .technologies{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    padding: 30px;
+    border: 5px solid black;
+    border-radius: 0 20px;
+
+}
+.technologiesServer{
+    display: flex;
+    justify-content:center;
+    padding: 30px;
+    border: 5px solid black;
+    border-radius: 0 20px;
+}
+.tools{
+    display: flex;
+    justify-content:center;
+    padding: 30px;
+    border: 5px solid black;
+    border-radius: 0 20px;
+} 
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+      
+
+      .tools{
+          flex-wrap: wrap;
+      }
+      h1{
+        position: relative;
+        left: 115px;
+      }
+      .h1Title{
+        display: flex;
+        justify-content: flex-end;
+      }
+      .h1Title {
+        display: flex;
+        justify-content: center;
+    }
+    h2{
+        display: flex;
+    justify-content: flex-end;
+    }
+  }
+
+

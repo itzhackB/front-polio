@@ -1,0 +1,188 @@
+.ulHeader,.ulDiv {
+  display: flex;
+justify-content: center;
+background-color: white;
+  color: white;
+  padding: 0;
+  margin: 0;
+display: list-item;
+}
+.iconHeader{
+  font-family: 'Roboto', sans-serif;
+}
+.headerH1{
+  color: #dd9a05;
+}
+.ulHeader i{
+  width: 100px;
+  height: 100px;
+}
+.fas{
+  width: 100px;
+  height: 100px;
+}
+.headerLogo:hover{
+  background-color: grey;
+
+}
+.techLogo:hover{
+  border:solid black;
+  transform: scale(1.5);
+}
+.popup {
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: rgb(53, 189, 53);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+.hlogo{
+  top:50px;
+  position: relative;
+}
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 0.5s;
+}
+@media only screen and (max-width:375em) { 
+	/* CSS rules here */
+  .ulHeader,.ulDiv {
+
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: 40px;
+  }
+  .iconHeader{
+
+    font-family: 'Roboto', sans-serif;
+  }
+  .headerH1{
+    color: #dd9a05;
+  }
+  .ulHeader i{
+    width: 20px;
+    height: 20px;
+  }
+
+  .fas{
+    width: 20px;
+    height: 20px;
+  }
+  .headerLogo:hover{
+    background-color: grey;
+  
+  }
+  .techLogo:hover{
+    border:solid black;
+    transform: scale(1.5);
+  }
+  .popup {
+    position: relative;
+    top: 50px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: rgb(53, 189, 53);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 0.5s;
+  }
+  
+}
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+    .ulHeader, .ulDiv {
+      display: flex;
+      justify-content:space-evenly;
+      padding: 0;
+      margin: 0;
+      position: relative;
+      left: 40px;
+    }
+    span{
+      height: 50px;
+      width: 50px;
+    }
+    .headerLogo{
+      top:15%
+    }
+    .hlogo{
+      top: 15%;
+    }
+    }
+  

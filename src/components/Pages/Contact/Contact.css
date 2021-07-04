@@ -1,0 +1,64 @@
+.mainContainer{
+  display: flex;
+  justify-content: space-around;
+}
+.formContainer{
+    display: flex;
+    justify-content: center;
+}
+.formBtn{
+    display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #ffa500;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-bottom: 100px;
+}
+.formBtn:hover {background-color: #d18a05}
+
+.formBtn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.formItem{
+    align-items: flex-start;
+}
+.divImg{
+  display: flex;
+  justify-content: flex-start;
+  
+}
+img{
+  width: 500px;
+  height: 300px;
+  margin-right: 70px;
+}
+
+#form{
+  margin-right: 100px;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+      
+    .formContainer{
+    position: relative;
+    top: 73px;
+    left: 85px;
+    
+    }
+    #form{
+      position: relative;
+      right: 148px;
+    }
+}
