@@ -28,7 +28,7 @@ const Home = (props) => {
 
               </div>
 
-              <div class="card-body" style={{ textAlign: "center" }}download style={{ visibility: translate ? "hidden" : "visible" }}>
+              <div class="card-body" style={{ textAlign: "center" }} download style={{ visibility: translate ? "hidden" : "visible" }}>
                 <span class="tag tag-teal"> <Convert
                   text={card.title}
                   language="heb"
@@ -43,7 +43,7 @@ const Home = (props) => {
 
 
                   />
-                  
+
                 </h3>
 
               </div>

@@ -29,7 +29,7 @@ const Convert = ({ language, text }) => {
           params: {
             q: finalText,
             target: language,
-            key: "AIzaSyAfXXvzhmnegGd0fQArgXcJ3oJUvsELTpM",
+            key:process.env.API_KEY_GOOGLE,
           },
         }
       );

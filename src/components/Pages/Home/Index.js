@@ -5,6 +5,7 @@ import './Home.css'
 import CV from '../../../Images/Itzhack-CV.pdf'
 import Convert from '../../Convert/Convert'
 import { MyDataContext } from '../../Contex/Contex'
+import ChatBot from 'react-simple-chatbot';
 
 export default function Index(props) {
 
@@ -67,6 +68,7 @@ export default function Index(props) {
                     <span><a href="https://www.facebook.com/yzik9090/"></a><i class="fab fa-facebook-f"></i></span>
                     <span><a href="https://www.instagram.com/itzhak.baynesai/"></a><i class="fab fa-instagram"></i></span>
                     
+
                 </div>
             </header>
 
@@ -76,7 +78,8 @@ export default function Index(props) {
                     <h1 style={{ visibility: translate ? "hidden" : "visible" }}><Convert
                         text="A little about me"
                         language="heb" /></h1>
-                    <span  className="curios"style={{ display: "block" }} style={{ visibility: translate ? "visible" : "hidden" }}>If you curious about me</span>
+                        
+                    <span className="curios" style={{ display: "block" }} style={{ visibility: translate ? "visible" : "hidden" }}>If you curious about me</span>
 
                     <span style={{ display: "block" }} style={{ visibility: translate ? "hidden" : "visible" }}><Convert
                         text="If you curious about me"
@@ -84,7 +87,7 @@ export default function Index(props) {
 
                     <a herf="#" style={{ fontSize: "900" }} className="a-show" onClick={showAbout}>
                         <i class="fas fa-arrow-circle-down"></i></a>
-
+                        
                 </div>
 
 
