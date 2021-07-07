@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/front-polio/static/css/main.a7ebb3da.chunk.css",
+    "main.js": "/front-polio/static/js/main.beb73159.chunk.js",
+    "main.js.map": "/front-polio/static/js/main.beb73159.chunk.js.map",
+    "runtime-main.js": "/front-polio/static/js/runtime-main.ed49d245.js",
+    "runtime-main.js.map": "/front-polio/static/js/runtime-main.ed49d245.js.map",
+    "static/js/2.2447670d.chunk.js": "/front-polio/static/js/2.2447670d.chunk.js",
+    "static/js/2.2447670d.chunk.js.map": "/front-polio/static/js/2.2447670d.chunk.js.map",
+    "static/js/3.84226345.chunk.js": "/front-polio/static/js/3.84226345.chunk.js",
+    "static/js/3.84226345.chunk.js.map": "/front-polio/static/js/3.84226345.chunk.js.map",
+    "index.html": "/front-polio/index.html",
+    "static/css/main.a7ebb3da.chunk.css.map": "/front-polio/static/css/main.a7ebb3da.chunk.css.map",
+    "static/js/2.2447670d.chunk.js.LICENSE.txt": "/front-polio/static/js/2.2447670d.chunk.js.LICENSE.txt",
+    "static/media/Itzhack-CV.09c6aa08.pdf": "/front-polio/static/media/Itzhack-CV.09c6aa08.pdf",
+    "static/media/barber.3532a29d.png": "/front-polio/static/media/barber.3532a29d.png",
+    "static/media/calculator.85260d17.png": "/front-polio/static/media/calculator.85260d17.png",
+    "static/media/contact.c7aea6ad.jpg": "/front-polio/static/media/contact.c7aea6ad.jpg",
+    "static/media/dayAtTech.1e7dc096.jpeg": "/front-polio/static/media/dayAtTech.1e7dc096.jpeg",
+    "static/media/eventLoop.f1eb3550.jpeg": "/front-polio/static/media/eventLoop.f1eb3550.jpeg",
+    "static/media/firstDay.0f085307.jpg": "/front-polio/static/media/firstDay.0f085307.jpg",
+    "static/media/games.3af87b0f.png": "/front-polio/static/media/games.3af87b0f.png",
+    "static/media/logo.6ce24c58.svg": "/front-polio/static/media/logo.6ce24c58.svg",
+    "static/media/me.5b63e5ea.png": "/front-polio/static/media/me.5b63e5ea.png",
+    "static/media/movies.2f5b00e6.png": "/front-polio/static/media/movies.2f5b00e6.png",
+    "static/media/officeProject.5d27bec3.png": "/front-polio/static/media/officeProject.5d27bec3.png",
+    "static/media/ranBarZik.4ed387b2.jpg": "/front-polio/static/media/ranBarZik.4ed387b2.jpg",
+    "static/media/setReduce.bed7d10b.jpg": "/front-polio/static/media/setReduce.bed7d10b.jpg",
+    "static/media/weather.63ac9ae9.png": "/front-polio/static/media/weather.63ac9ae9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed49d245.js",
+    "static/js/2.2447670d.chunk.js",
+    "static/css/main.a7ebb3da.chunk.css",
+    "static/js/main.beb73159.chunk.js"
+  ]
+}
